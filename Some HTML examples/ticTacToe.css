@@ -1,0 +1,21 @@
+h1{
+	color: black;
+	font-size: 50px;
+	text-align: center;
+}
+table{
+	margin: auto;
+}
+table tr td{
+	padding: 20px;
+	width: 100px;
+	height: 100px;
+}
+.vertical{
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+}
+.horizontal{
+	border-bottom: 2px solid black;
+	border-top: 2px solid black
+}

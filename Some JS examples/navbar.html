@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navbar</title>
+	<link rel="stylesheet" type="text/css" href="navbar.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+	<div class="navbar">
+		<a href="#Home">Home</a>
+		<a href="#News">News</a>
+		<a href="#Contacts">Contacts</a>
+		<div class="dropdown">
+			<button class="dropdown-button">Dropdown  <i class="fas fa-caret-down"></i></button>
+			<div class="dropdown-content">
+					<a href="#">Link 1</a>
+					<a href="#">Link 2</a>
+					<a href="#">Link 3</a>
+			</div>
+		</div>
+		<div class="login">
+			<div class="login-dropdown">
+				<button class="login-dropdown-button">Login  <i class="fas fa-caret-down"></i></button>
+				<div class="login-dropdown-content">
+					<form method="POST">
+						<div class="input-container">
+							<!-- <label for="Username">Username</label> -->
+							<i class="fas fa-user"></i>
+							<input type="text" name="Username" id="Username" placeholder="Username">	
+						</div>
+						<div class="input-container">
+							<!-- <label for="Password">Password</label> -->
+							<i class="fas fa-key"></i>
+							<input type="Password" name="Password" id="Password" placeholder="Password">
+						</div>
+						<p>
+							<button type="submit" class="login-button">LOGIN</button>
+						</p>
+					</form>
+				</div>
+			</div>
+			<a href="#Register">Register</a>			
+		</div>
+	</div>
+</body>
+</html>

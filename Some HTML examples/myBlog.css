@@ -1,0 +1,37 @@
+body{
+	border: 20px solid #bdc3c7;
+	padding: 20px;
+	max-width: 700px;
+	width: 80%;
+	margin: 20px auto;
+	font-family: Source Sans Pro;
+
+}
+.date{
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+div{
+	margin-left: 20px;
+	margin-right: 100px;
+	margin-bottom: 10px;
+}
+.caption{
+	font-size: 30px;
+}
+.firstContent{
+	border-left: 3px solid #bdc3c7;
+	padding-left: 5px;
+}
+.secondContent{
+
+}
+.thirdContent{
+	border-bottom: 2px solid #f1f1f1;
+	padding-bottom: 15px;
+}
+/*.date:nth-of-type(2){
+	border-top: 2px solid #f1f1f1;
+	padding: 5px;
+}*/
